@@ -2,7 +2,8 @@
 
 This repository demonstrates the implementation of a teacher-student learning framework for semantic segmentation using knowledge distillation. The objective is to transfer the knowledge of a large DeepLabV3 model with a ResNet-101 backbone (teacher) to a smaller and more efficient ESPNet model (student), achieving comparable performance while significantly reducing computational complexity and resource requirements.
 
-> **Note**: This is an ongoing project, and further improvements and features are under active development. 
+> [!NOTE]
+> This is an ongoing project, and further improvements and features are under active development. 
 
 ## Overview
 
