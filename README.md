@@ -2,7 +2,7 @@
 
 This repository demonstrates the implementation of a teacher-student learning framework for semantic segmentation using knowledge distillation. The objective is to transfer the knowledge of a large DeepLabV3 model with a ResNet-101 backbone (teacher) to a smaller and more efficient ESPNet model (student), achieving comparable performance while significantly reducing computational complexity and resource requirements.
 
-Note: This is an ongoing project, and further improvements and features are under active development. 
+> **Note**: This is an ongoing project, and further improvements and features are under active development. 
 
 ## Overview
 
@@ -16,3 +16,8 @@ Knowledge distillation is a technique to train a smaller model (student) by leve
     - Cross-entropy loss (ground truth labels)
     - Distillation loss (soft predictions from the teacher)
 - Applications: Semantic segmentation tasks in resource-constrained environments such as edge devices or real-time applications.
+
+## Models details 
+
+- Teacher model : 60 995 945 parameters
+- Student model : 1 229 396 parameters
